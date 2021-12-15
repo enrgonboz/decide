@@ -197,5 +197,4 @@ INSTALLED_APPS = INSTALLED_APPS + MODULES
 NOSE_ARGS = [
     '--with-xunit'
 ]
-
 django_heroku.settings(locals(), test_runner=False)
